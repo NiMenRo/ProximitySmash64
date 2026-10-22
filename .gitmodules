@@ -1,0 +1,3 @@
+[submodule "core_emulador"]
+	path = core_emulador
+	url = git@github.com:NiMenRo/mupen64plus-libretro-nx.git

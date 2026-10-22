@@ -1,0 +1,32 @@
+# Build
+build/
+out/
+cmake-build-*/
+CMakeUserPresets.json
+
+# IDE
+.vs/
+.vscode/
+.idea/
+
+# ROMs, BIOS y saves (nunca se versionan)
+*.z64
+*.n64
+*.v64
+*.rom
+*.eep
+*.sra
+*.srm
+*.mpk
+*.fla
+
+# Secretos y configuración local
+.env
+.env.*
+!.env.example
+secrets*
+config.local.*
+
+# Sistema
+Thumbs.db
+.DS_Store
